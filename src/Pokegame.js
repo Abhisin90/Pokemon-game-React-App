@@ -27,8 +27,8 @@ class Pokegame extends Component {
         console.log(power1,power2)
         return(
             <div>
-                <Pokedex num={1} pokemon={pokemonn} exp={power1} isWinner={power1>power2} />
-                <Pokedex num={2} pokemon={pokemonn2} exp={power2} isWinner={power2>power1}/>
+                <Pokedex pokemon={pokemonn} exp={power1} isWinner={power1>power2} />
+                <Pokedex pokemon={pokemonn2} exp={power2} isWinner={power2>power1}/>
             </div>
         )
     }

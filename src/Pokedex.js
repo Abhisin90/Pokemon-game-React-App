@@ -3,9 +3,6 @@ import Pokecard from './Pokecard'
 import './Pokedex.css'
 
 class Pokedex extends Component {
-    static defaultProps = {
-        isWinner:false
-    }
     render(){
         let title
         if(this.props.isWinner){
